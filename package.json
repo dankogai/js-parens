@@ -1,0 +1,30 @@
+{
+  "name": "js-parens",
+  "version": "0.0.0",
+  "description": "the () language in JavaScript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^8.0.1",
+    "chai": "^4.2.0"
+  },
+  "scripts": {
+    "test": "mocha --require esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dankogai/js-parens.git"
+  },
+  "keywords": [
+    "parens",
+    "programming",
+    "language"
+  ],
+  "author": "Dan Kogai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dankogai/js-parens/issues"
+  },
+  "homepage": "https://github.com/dankogai/js-parens#readme"
+}
