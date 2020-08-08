@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "description": "the () language in JavaScript",
   "main": "index.js",
+  "module": "index.js",
+  "files": ["*.js"],
   "dependencies": {},
   "devDependencies": {
     "esm": "^3.2.25",
