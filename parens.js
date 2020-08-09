@@ -1,7 +1,7 @@
 //
 // parens.js
 //
-import { S, K, I, U } from './ski.js';
+import { S, K, I, U } from './combinators.js';
 /**
  * translates parens `src` to JavaScript source code
  * @param {*} src parens source

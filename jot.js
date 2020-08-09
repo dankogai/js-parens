@@ -1,13 +1,9 @@
 //
 // jot.js
 //
-
-import { I, U } from './ski.js';
-
-const B = x => y => z => x(y(z));
-
+import { S, K, I, U, B } from './combinators.js';
 /**
- * translates jot `src` to JavaScript source code
+ * compile jot `src` to JavaScript function
  * @param {*} src 
  */
 export const compile = (src) => {

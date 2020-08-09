@@ -1,7 +1,7 @@
 //
 // iota.js
 //
-import { U } from './ski.js';
+import { U } from './combinators.js';
 /**
  * translates iota `src` to JavaScript source code
  * @param {*} src iota source

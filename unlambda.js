@@ -1,7 +1,7 @@
 //
 // unlambda.js
 //
-import { S, K, I } from './ski.js';
+import { S, K, I } from './combinators.js';
 /**
  * compiles unlambda `src` to JavaScript function
  * @param {*} src unlambda source

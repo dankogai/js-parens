@@ -3,7 +3,7 @@
 //
 // cf. http://blog.livedoor.jp/dankogai/archives/51524324.html
 //
-import { S, K, I } from './ski.js';
+import { S, K, I, Z } from './combinators.js';
 import { compile as ul } from './unlambda.js';
 /* boolean */
 export const T = ul('k');
@@ -32,7 +32,7 @@ export const SUB = ul(
     '``s`k`s``si`k``s``s`ks``s`k`s`ks``s``s`ks``s`k`s`ks``s`k`s'
     + '`kk``s``s`ksk`k``s`k`s`k`si``s`k`s`kk``s`k`sik`k`kk`k`k`kik');
 // to save call stack, Z (Y for eager evaluation) and others are hand-crafted
-export const Z = f => (x => x(x))(y => f(x => y(y)(x)));
+// export const Z = f => (x => x(x))(y => f(x => y(y)(x)));
 // wrap x and y with function(){} -- see cnfact
 export const IFR = p => x => y => IF(p)(x)(y)(I);
 export const LSOF = a => Z(CONS(a));   /* (infinite) list with elem. a */
