@@ -1,5 +1,7 @@
-export * as church from './church.js';
-export * as iota from './iota.js';
-export * as jot from './jot.js';
-export * as parens from './parens.js';
-export * as unlambda from './unlambda.js';
+// `export * as name` statement is still unavailable in many platforms
+import * as church from './church.js';
+import * as iota from './iota.js';
+import * as jot from './jot.js';
+import * as parens from './parens.js';
+import * as unlambda from './unlambda.js';
+export { church, iota, jot, parens, unlambda };
