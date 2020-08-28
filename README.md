@@ -12,7 +12,9 @@ the [()] language in JavaScript. Plus {[unlambda],[iota],[jot]} implementations,
 ## Synopsis
 
 ```javascript
-import { combinators, church, iota, jot, parens, unlambda } from './index.js';
+import {
+  combinators, church, iota, jot, parens, unlambda 
+} from './index.js';
 // They all compile to the identity function,
 // or the I combinator,
 // or 1 in church numeral
