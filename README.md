@@ -24,3 +24,10 @@ import {
 unlambda.compile('``skk'                )(n => n+1)(0); // 1
                             combinators.I(n => n+1)(0); // 1
 ```
+
+You can also import individual language as:
+
+```javascript
+import * as parens from './parens.js';
+parens.compile('((()))(())'             )(n => n+1)(0); // 0
+```
